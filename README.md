@@ -31,12 +31,12 @@ Power system protection studies, Siemens PLC automation and machine vision for q
 <br><sub>Vision and AI · Final year project, APU</sub>
 </td>
 <td width="33%" valign="top">
-<a href="https://bader915.github.io/portfolio/work/microgrid-protection.html"><img src="https://bader915.github.io/portfolio/assets/img/work/microgrid-simulink-800.webp" alt="Simulink model of the 33/11 kV radial network with relays and breakers" width="100%"></a>
+<a href="https://bader915.github.io/portfolio/work/microgrid-protection.html"><img src="https://bader915.github.io/portfolio/assets/img/work/microgrid-fault-scope-800.webp" alt="Scope traces of voltage, current and trip signals during a fault" width="100%"></a>
 <br><a href="https://bader915.github.io/portfolio/work/microgrid-protection.html"><b>Phase and earth-fault protection of an 11 kV network</b></a>
 <br><sub>Power and protection · Switchgear and Protection open-ended lab, APU</sub>
 </td>
 <td width="33%" valign="top">
-<a href="https://bader915.github.io/portfolio/work/golf-ball-qc.html"><img src="https://bader915.github.io/portfolio/assets/img/work/omron-relay-400.webp" alt="OMRON relay wired for the sensor interface" width="100%"></a>
+<a href="https://bader915.github.io/portfolio/work/golf-ball-qc.html"><img src="https://bader915.github.io/portfolio/assets/img/work/rpi5-kit-800.webp" alt="Raspberry Pi 5 kit and camera" width="100%"></a>
 <br><a href="https://bader915.github.io/portfolio/work/golf-ball-qc.html"><b>Automated golf ball inspection station</b></a>
 <br><sub>Automation and PLC · Internship, Control Easy</sub>
 </td>

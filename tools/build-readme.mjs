@@ -34,13 +34,14 @@ const buttons = [
 ];
 
 /* project cards: the strongest work, each card opens its page on the portfolio */
-const FEATURED = ['pcb-defect-vit', 'microgrid-protection', 'golf-ball-qc', 'wood-defect-segmentation', 'relay-coordination', 'fabric-qc'];
+// [slug, which of its images to show]: landscape pictures keep the rows even
+const FEATURED = [['pcb-defect-vit', 0], ['microgrid-protection', 2], ['golf-ball-qc', 3], ['wood-defect-segmentation', 0], ['relay-coordination', 0], ['fabric-qc', 0]];
 const bySlug = Object.fromEntries(data.projects.map(p => [p.slug, p]));
 const cats = Object.fromEntries(data.categories.map(c => [c.id, c.label]));
 const thumb = src => { const b = src.replace(/\.webp$/, ''); return dims[b + '-800.webp'] ? b + '-800.webp' : dims[b + '-400.webp'] ? b + '-400.webp' : src; };
-const card = slug => {
+const card = ([slug, n]) => {
   const p = bySlug[slug]; if (!p) throw new Error('no project ' + slug);
-  const url = `${LIVE}work/${slug}.html`, img = p.images[0];
+  const url = `${LIVE}work/${slug}.html`, img = p.images[n];
   return `<td width="33%" valign="top">
 <a href="${url}"><img src="${LIVE}${enc(thumb(img.src))}" alt="${esc(img.alt)}" width="100%"></a>
 <br><a href="${url}"><b>${esc(p.title)}</b></a>
