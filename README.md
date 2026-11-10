@@ -71,7 +71,7 @@ Open a discipline to see its projects. Each one links to its page on the portfol
 - [Overcurrent relay coordination study](https://bader915.github.io/portfolio/work/relay-coordination.html): Settings and time grading for ten IDMT relays on a 230 kV generation and transmission system, with a MATLAB application for the curves.
 - [Phase and earth-fault protection of an 11 kV network](https://bader915.github.io/portfolio/work/microgrid-protection.html): Simulink model of a 33/11 kV radial microgrid with phase and earth-fault relays tested under four fault types and six inverse curves.
 - [Power flow analysis of a 10-bus network](https://bader915.github.io/portfolio/work/power-flow-10-bus.html): Newton-Raphson, Gauss-Seidel and Fast-Decoupled solutions in MATLAB and PowerWorld, with a 35 MW load increase.
-- [Modular smart power hub](https://bader915.github.io/portfolio/work/honeycomb-power-hub.html): Product design for a repairable power strip: a master hub with hexagonal socket modules that snap on magnetically, so one failed socket is replaced on its own. Modelled in SolidWorks.
+- [Honeycomb modular power hub](https://bader915.github.io/portfolio/work/honeycomb-power-hub.html): Product design for a repairable power strip: a master hub with hexagonal socket modules that snap on magnetically, so one failed socket is replaced on its own. Modelled in SolidWorks.
 - [Transformer and alternator testing](https://bader915.github.io/portfolio/work/transformer-alternator.html): Ratio, open-circuit, short-circuit and load tests on a single-phase transformer, and characteristic tests on a three-phase alternator.
 - [Microgrid with solar PV and battery storage](https://bader915.github.io/portfolio/work/microgrid-technology.html): Simulink microgrid with PV, battery state-of-charge control and household and commercial loads, plus power-factor correction.
 - [Off-grid wind and battery power conversion](https://bader915.github.io/portfolio/work/wind-energy-system.html): Rectifier, buck-boost converter, 48 V battery and PWM inverter sized and simulated in Simulink for a 500 W off-grid wind turbine.
@@ -101,7 +101,7 @@ Open a discipline to see its projects. Each one links to its page on the portfol
 - [PCB component inspection application](https://bader915.github.io/portfolio/work/pcb-component-inspection.html): YOLOv8 inspection that reports each component as Good, Partial or Fail, with checks that catch missing parts and empty sockets.
 - [Fabric quality control](https://bader915.github.io/portfolio/work/fabric-qc.html): Classification and defect detection for fabric, retrained on a larger dataset and quantised for the Raspberry Pi 5.
 - [Wood defect segmentation](https://bader915.github.io/portfolio/work/wood-defect-segmentation.html): Pixel-level YOLOv11 segmentation of holes and scratches on wooden boards, with a quality score.
-- [Medication scanner and obstacle detection](https://bader915.github.io/portfolio/work/medication-scanner.html): Python application on a Jetson for medication image scanning and obstacle detection.
+- [Medicine identification and obstacle detection for the hospital AGV](https://bader915.github.io/portfolio/work/medication-scanner.html): Badr's part of the hospital AGV: two vision models on a Jetson Orin Nano, one to identify the medicines being carried and one to detect obstacles and judge their distance.
 - [Hand gesture recognition](https://bader915.github.io/portfolio/work/hand-gesture.html): Python and OpenCV system recognising hand gestures from a live camera.
 - [Baby carrot freshness inspection](https://bader915.github.io/portfolio/work/fruit-inspection.html): Baby carrots graded fresh, aging or spoiled two ways: an OpenCV pipeline reading texture, dark spots, mould and colour, and a Roboflow object-detection model trained on 281 annotated frames, both run from one Tkinter app.
 
@@ -136,7 +136,7 @@ Open a discipline to see its projects. Each one links to its page on the portfol
 - [Vaccination centre system](https://bader915.github.io/portfolio/work/vaccination-centre.html): Python program that organises vaccination-centre records and the service flow.
 - [Vaccine inventory system](https://bader915.github.io/portfolio/work/vaccination-inventory.html): C++ program that tracks vaccine stock, records and updates.
 - [Two-level library lighting design](https://bader915.github.io/portfolio/work/library-lighting.html): Lighting scheme for a client's two-storey library refurbishment in DIALux evo 11, simulated with and without daylight and checked room by room for lighting power density.
-- [Go-kart design](https://bader915.github.io/portfolio/work/go-kart.html): Go-kart assembly and mechanical parts modelled in SolidWorks.
+- [Bumper car with laser tag](https://bader915.github.io/portfolio/work/bumper-car.html): Bumper car concept that doubles as laser tag, driven by two joysticks. The group chose Badr's sketch and modelled the full car in SolidWorks.
 - [Waveform generator app in MATLAB](https://bader915.github.io/portfolio/work/waveform-generator-app.html): MATLAB App Designer app that plots a sine, square, triangular or sawtooth wave from the amplitude and frequency the user enters, and saves the plot as an image.
 
 </details>
